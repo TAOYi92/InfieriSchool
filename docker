@@ -1,0 +1,1 @@
+sudo docker run --runtime=nvidia -ti -p 8888:8888 -v /home/ubuntu/TFG_Retinopatia/Infieri:/home/root/InfieriData -v /home/ubuntu/:/home/root/InfieriCode infierischool /bin/bash
